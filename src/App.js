@@ -1,13 +1,11 @@
-import logo from './logo.svg';
-import './App.scss';
-import StoryPage from './pages/StoryPage';
+import Story from './pages/Story';
 
 function App() {
   return (
-    <div className="App">
+    <main className="app">
        <h1>Slakje Storytelling App</h1>
-       <StoryPage />
-    </div>
+       <Story />
+    </main>
   );
 }
 
