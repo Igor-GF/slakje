@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
+import ParagraphList from '../components/ParagraphList';
 
 const booksDB = [
   {
@@ -21,7 +22,7 @@ const booksDB = [
         pageNumber: 2,
         pageBg: "this.",
         pageText: [
-          "SSSSSSS",
+          "fffffffffffffffff",
           "This little bet is Kiko! Hello Kiko!",
           "Kiko looks very excited.",
           "Should we tell our friend what is happening in Volendorpje?!",
@@ -33,24 +34,11 @@ const booksDB = [
   }
 ];
 
-const textTemp = [
-  "This little bet is Kiko! Hello Kiko!",
-  "Kiko looks very excited.",
-  "Should we tell our friend what is happening in Volendorpje?!",
-  "Kiko nods affirmatively",
-  "And do you know why?"
-];
-
 const Story = () => {
   return (
     <section className="page-container">
-      <div className="page-container__text">
-        {
-          textTemp.map((paragraph, index) => {
-            return <h2 key={index}>{paragraph}</h2>
-          })
-        }       
-      </div>
+      
+      <ParagraphList paragraphs={booksDB[0].pages[0].pageText}/>
 
       <Navigation />     
          
