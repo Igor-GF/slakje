@@ -23,5 +23,10 @@ body {
 
 .btn {
   text-decoration: none;
-  background-color: green;
+  background-color: grey;
+
+  &:hover {
+    cursor: pointer;
+    background-color: green;
+  }
 }

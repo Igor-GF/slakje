@@ -1,46 +1,32 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Navigation from '../components/Navigation';
 import ParagraphList from '../components/ParagraphList';
+import Background from '../components/Background';
 
-const booksDB = [
-  {
-    id: "s00001y2021",
-    title: "Sleepy Volendorpje",
-    pages: [
-      {
-        pageNumber: 1,
-        pageBg: "this.",
-        pageText: [
-          "SSSSSSS",
-          "This little bet is Kiko! Hello Kiko!",
-          "Kiko looks very excited.",
-          "Should we tell our friend what is happening in Volendorpje?!",
-          "Kiko nods affirmatively",
-          "And do you know why?"
-        ]
-      },{
-        pageNumber: 2,
-        pageBg: "this.",
-        pageText: [
-          "fffffffffffffffff",
-          "This little bet is Kiko! Hello Kiko!",
-          "Kiko looks very excited.",
-          "Should we tell our friend what is happening in Volendorpje?!",
-          "Kiko nods affirmatively",
-          "And do you know why?"
-        ]
-      }
-    ],
-  }
-];
+const Story = ({ booksDB }) => {
 
-const Story = () => {
+  const [currPage, setCurrPage] = useState(0);
+
+  const nextPageHandler = () => {
+    setCurrPage( currPage + 1 );
+  };
+
+  const backPageHandler = () => {
+    setCurrPage( currPage - 1 );
+  };
+
+  useEffect(() => {
+    console.log("it wotked!!!")
+  }, [currPage]);
+
   return (
     <section className="page-container">
       
-      <ParagraphList paragraphs={booksDB[0].pages[0].pageText}/>
+      <Background bgImage={booksDB[0].pages[currPage].pageBg}/>
+      
+      <ParagraphList paragraphs={booksDB[0].pages[currPage].pageText}/>
 
-      <Navigation />     
+      <Navigation nextPage={nextPageHandler} backPage={backPageHandler} pageNumber={currPage}/>     
          
     </section>
   )

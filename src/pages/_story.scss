@@ -1,7 +1,6 @@
 .page-container {
   width: 100%;
   height: 56%;
-  background-image: url(../img/bg-volendorpje_scene_01.jpg);
   background-size: cover;
   position: relative;
 
@@ -9,8 +8,8 @@
     width: 40%;
     height: 60%;
     border-radius: 0.4rem;
-    box-shadow: 1rem 1rem 2rem rgba($color-black, 0.15);
-    background-color: rgba($color-text-bg, 0.5);
+    box-shadow: 1rem 1rem 2rem rgba(black, 0.15);
+    background-color: rgba(#a0dcff, 0.5);
     padding: 1rem 2rem;
     position: absolute;
     top: 20%;
@@ -19,6 +18,16 @@
     h2 {
       padding: 1rem 0;
       font-size: 2rem;
+    }
+  }
+
+  &__background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    img {
+      height: 100%;
     }
   }
 }
