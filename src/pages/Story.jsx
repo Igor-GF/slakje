@@ -24,9 +24,11 @@ const Story = ({ booksDB }) => {
       
       <Background bgImage={booksDB[0].pages[currPage].pageBg}/>
       
-      <ParagraphList paragraphs={booksDB[0].pages[currPage].pageText}/>
+      <ParagraphList paragraphs={booksDB[0].pages[currPage].pageText} onTheRight={booksDB[0].pages[currPage].textRight}/>
 
-      <Navigation nextPage={nextPageHandler} backPage={backPageHandler} pageNumber={currPage}/>     
+      <Navigation nextPage={nextPageHandler} backPage={backPageHandler} pageNumber={currPage}/> 
+
+        
          
     </section>
   )

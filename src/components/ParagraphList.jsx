@@ -1,8 +1,8 @@
 import React from 'react';
 
-const ParagraphList = ({ paragraphs }) => {
+const ParagraphList = ({ paragraphs, onTheRight }) => {
   return (
-    <div className="page-container__text">
+    <div className={`page-container__text page-container__text${onTheRight}`}>
       {
         paragraphs.map((paragraph, index) => {
           return <h2 key={index}>{paragraph}</h2>
