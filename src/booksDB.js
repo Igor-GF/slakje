@@ -40,7 +40,7 @@ export const booksDB = [
         pageBg: "./images/bg-volendorpje_scene_05_puzzle.jpg",
         pageText: [
           "One week ago, teacher Anneke, decided one day that she would take fruits to her students.",
-          "She put four apples in her bag, three pears and two kiwis. Turned out that when she got in class she had lost one of the apples on the way.",
+          "She put 6 apples in her bag, 4 pears and 3 kiwis. Turned out that when she got in class she had lost one of the apples on the way.",
           "How many fruits does Juf Aneke have left in her bag?"
         ]
       },{
@@ -80,69 +80,82 @@ export const booksDB = [
         pageBg: "./images/bg-volendorpje_scene_09.jpg",
         pageText: [
           "Well done!",
-          "Well, ",
-          "Which picture do you see the most?",
-          "Yeah, right! Then you need to go to the Oudemolen, the old windmill! Hurry up, there will be a surprise for you there!"
+          "Well, just one more question.",
+          "Which picture do you see the most?"
         ],
         textRight: "--right"
       },{
         pageNumber: 11,
-        pageBg: "./images/bg-volendorpje_scene_11.jpg",
+        pageBg: "./images/bg-volendorpje_scene_06.jpg",
         pageText: [
-          "Alright! Then you need to go to the Oudemolen, the old windmill! Hurry up, there will be a surprise for you there!"
-        ]
-      },{
-        pageNumber: 12,
-        pageBg: "./images/bg-volendorpje_scene_12_puzzle.jpg",
-        pageText: [
-          "You are really smart! I told Kiko that you would be able to help us with that!",
-          "We still have a bit to walk to get to Oudemolen.",
-          "Did you know that Oudemolen is the only windmill in Volendorpje?",
-          "There leaves Mr. Roos. He is an old sculptor and one of the oldest people in the village.",
-          "Let’s go ahead!"
+          "Yeah, perfect!",
+          "Then you probably need to go to the Oudemolen, the old windmill!",
+          "It is the only windmill in the village.",
+          "Hurry up! Maybe there will be a surprise for you there!"
         ],
         textRight: "--right"
       },{
+        pageNumber: 12,
+        pageBg: "./images/bg-volendorpje_scene_11.jpg",
+        pageText: [
+          "There we go!",
+          "Do you see those sculptures?",
+          "They are made by Mrs. Gaag, she lives in the Oudmolen.",
+          "She is one of the oldest people in the village!",
+          "Let's go in!"
+        ]
+      },{
         pageNumber: 13,
+        pageBg: "./images/bg-volendorpje_scene_12_puzzle.jpg",
+        pageText: [
+          "But to open the door you still need to help solving one last puzzle.",
+          "Lena want you to guess how old she is!",
+          "But of course, she left a clue.",
+          "Do you still remember which was teacher Anneke's house number?",
+          "Lena's age is this number minus 3",
+          "So, how old is Lena?"
+        ],
+        textRight: "--right"
+      },{
+        pageNumber: 14,
         pageBg: "./images/bg-volendorpje_scene_13.jpg",
         pageText: [
-          "It’s here, we got there! You know what to do, right?"
+          "You got that right again!!",
+          "We are inside the Oudmolen!",
+          "What is this noise coming from up stairs? We should go up through the stairs, there is something waiting for us there."
         ],
         textRight: "--right"
       },{
         pageNumber: 14,
         pageBg: "./images/bg-volendorpje_scene_14.jpg",
         pageText: [
-          "Hi again! To open this door ..."
+          "Hi again!",
         ]
       },{
         pageNumber: 15,
+        pageBg: "./images/bg-volendorpje_scene_14.jpg",
+        pageText: [
+          "Wow, you were amazing! You found me!",
+          "Next time I will make it harder for you."
+        ]
+      },{
+        pageNumber: 16,
         pageBg: "./images/bg-volendorpje_scene_15.jpg",
         pageText: [
-          "Go up through the stairs, there is something waiting for you there."
+          "As promised, I am breaking the enchanting, and Volendorpje will be awake again."
         ]
       },{
         pageNumber: 16,
         pageBg: "./images/bg-volendorpje_scene_16.jpg",
         pageText: [
-          "Wow, you were great! You found me!",
-          "Next time I will make it harder for you!",          
-          "As promised, I break the enchanting, and Volendorpje will be awake again!"
+          "It was really fun playing with you, but now I have to go…"          
         ]
       },{
         pageNumber: 17,
         pageBg: "./images/bg-volendorpje_scene_17.jpg",
-        pageText: []
-      },{
-        pageNumber: 18,
-        pageBg: "./images/bg-volendorpje_scene_18.jpg",
         pageText: [
-          "It was really fun playing with you, but now I have to go… see you in another time!"
+          "See you in another time!!!"
         ]
-      },{
-        pageNumber: 19,
-        pageBg: "./images/bg-volendorpje_scene_19.jpg",
-        pageText: []
       }
     ],
   }
