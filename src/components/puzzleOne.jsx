@@ -1,11 +1,20 @@
 import React from 'react';
+import InputNumber from './InputNumber';
 
-const puzzleOne = () => {
+const PuzzleOne = ({ pageNumber, answer, nextPage }) => {
+
   return (
-    <div className="puzzle-container__one">
-      Hello from the Puzzle One!!!
+    <div className="puzzle-container">
+      {
+        pageNumber === 5 && (
+          <InputNumber 
+            correctAnswer={answer} 
+            nextPage={nextPage}
+          />
+        )
+      }
     </div>
   )
 }
 
-export default puzzleOne;
+export default PuzzleOne;

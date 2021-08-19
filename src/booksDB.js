@@ -43,7 +43,8 @@ export const booksDB = [
           "One week ago, teacher Anneke, decided one day that she would take fruits to her students.",
           "She put 6 apples in her bag, 4 pears and 3 kiwis. Turned out that when she got in class she had lost one of the apples on the way.",
           "How many fruits does teacher Aneke have left in her bag?"
-        ]
+        ],
+        answer: "12"
       },{
         pageNumber: 6,
         pageBg: "./images/bg-volendorpje_scene_06.jpg",
@@ -75,7 +76,7 @@ export const booksDB = [
         pageText: [
           "Now I want to see if you can complete these three sequences!"
         ],
-        textRight: "--right"
+        textRight: "--right",
       },{
         pageNumber: 10,
         pageBg: "./images/bg-volendorpje_scene_09.jpg",
@@ -84,7 +85,8 @@ export const booksDB = [
           "Well, just one more question.",
           "Which picture do you see the most?"
         ],
-        textRight: "--right"
+        textRight: "--right",
+        answer: "windmill"
       },{
         pageNumber: 11,
         pageBg: "./images/bg-volendorpje_scene_06.jpg",
@@ -112,12 +114,21 @@ export const booksDB = [
           "But to open the door you still need to help solving one last puzzle.",
           "Lena want you to guess how old she is! But of course, she left us a clue.",
           "Do you still remember which was teacher Anneke's house number?",
-          "Lena's age is this number minus 3",
-          "So, how old is Lena?"
         ],
-        textRight: "--right"
+        textRight: "--right",
       },{
         pageNumber: 14,
+        pageBg: "./images/bg-volendorpje_scene_12_puzzle.jpg",
+        pageText: [
+          "Do you still remember which was teacher Anneke's house number?",
+          "Well, the clue is:",
+          "Lena's age is this number of Aneke's house minus 3.",
+          "So, how old is Lena?"
+        ],
+        textRight: "--right",
+        answer: "9"
+      },{
+        pageNumber: 15,
         pageBg: "./images/bg-volendorpje_scene_13.jpg",
         pageText: [
           "You got that right again!!",
@@ -126,32 +137,32 @@ export const booksDB = [
         ],
         textRight: "--right"
       },{
-        pageNumber: 15,
+        pageNumber: 16,
         pageBg: "./images/bg-volendorpje_scene_14.jpg",
         pageText: [
           "Hi again!",
         ]
       },{
-        pageNumber: 16,
+        pageNumber: 17,
         pageBg: "./images/bg-volendorpje_scene_14.jpg",
         pageText: [
           "Wow, you were amazing! You found me!",
           "Next time I will make it harder for you."
         ]
       },{
-        pageNumber: 17,
+        pageNumber: 18,
         pageBg: "./images/bg-volendorpje_scene_15.jpg",
         pageText: [
           "As promised, I am breaking the enchanting, and Volendorpje will be awake again."
         ]
       },{
-        pageNumber: 18,
+        pageNumber: 19,
         pageBg: "./images/bg-volendorpje_scene_16.jpg",
         pageText: [
           "It was really fun playing with you, but now I have to go…"          
         ]
       },{
-        pageNumber: 19,
+        pageNumber: 20,
         pageBg: "./images/bg-volendorpje_scene_17.jpg",
         pageText: [
           "See you in another time!!!"

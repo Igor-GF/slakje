@@ -2,9 +2,6 @@ import React, { useState, useEffect } from 'react';
 import Navigation from '../components/Navigation';
 import ParagraphList from '../components/ParagraphList';
 import Background from '../components/Background';
-import PuzzleOne from '../components/puzzleOne';
-import PuzzleTwo from '../components/puzzleTwo';
-import PuzzleThree from '../components/puzzleThree';
 
 const Story = ({ booksDB }) => {
 
@@ -32,11 +29,10 @@ const Story = ({ booksDB }) => {
       <ParagraphList 
         paragraphs={booksDB[0].pages[currPage].pageText} 
         onTheRight={booksDB[0].pages[currPage].textRight}
+        pageNumber={booksDB[0].pages[currPage].pageNumber}
+        answer={booksDB[0].pages[currPage].answer}
+        nextPage={nextPageHandler}
       />
-
-      <PuzzleOne />
-      <PuzzleTwo />
-      <PuzzleThree />
 
       <Navigation 
         nextPage={nextPageHandler} 

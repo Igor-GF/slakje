@@ -5,6 +5,7 @@
   position: relative;
 
   &__text {
+    z-index: 2;
     width: 40%;
     height: fit-content;
     border-radius: 0.4rem;
@@ -14,6 +15,7 @@
     position: absolute;
     top: 15%;
     left: 6rem;
+    text-align: center;
 
     &--right {
       transform: translateX(29rem);
@@ -29,6 +31,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
+    z-index: 0;
 
     img {
       height: 100%;

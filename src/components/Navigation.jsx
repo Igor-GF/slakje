@@ -5,7 +5,9 @@ const Navigation = ({ nextPage, backPage, pageNumber, totalPages }) => {
     <nav className="navigation-container">
 
       {
-        pageNumber > 1 && (<a className="btn btn--back-page" onClick={backPage}>BACK</a>)
+        pageNumber > 1 && (
+          <span className="btn btn--back-page" onClick={backPage}>BACK</span>
+        )
       }      
 
       <div className="navigation-container__page-number">
@@ -14,7 +16,9 @@ const Navigation = ({ nextPage, backPage, pageNumber, totalPages }) => {
       
 
       {
-        pageNumber < totalPages && (<a className="btn btn--next-page" onClick={nextPage}>NEXT</a>)
+        pageNumber < totalPages && (
+          <span className="btn btn--next-page" onClick={nextPage}>NEXT</span>
+        )
       } 
 
     </nav>
