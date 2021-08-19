@@ -1,13 +1,17 @@
 .btn {
-  display: block;
+  display: flex;
+  text-decoration: none;
+  background-color: grey;
+  height: 100%;
   border-radius: 0.5rem;
   text-align: center;
   font-size: 1.5rem;
   font-weight: 800;
   color: white;
-  padding: 1rem;
+  padding: 0.4rem 1rem 0 1rem;
 
-  &:not(:last-child) {
-    margin-bottom: 1rem;
+  &:hover {
+    cursor: pointer;
+    background-color: green;
   }
 }

@@ -1,6 +1,16 @@
 .navigation-container {
-  display: block;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 2.5rem;
+  border-radius: 0.4rem;
+  background-color: $color-white;
   position: absolute;
   bottom: 4%;
   right: 0.5rem;
+
+  &__page-number {
+    padding: 0 0.7rem;
+  }
 }

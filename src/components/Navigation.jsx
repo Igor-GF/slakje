@@ -1,14 +1,21 @@
 import React from 'react';
 
-const Navigation = ({ nextPage, backPage, pageNumber }) => {
+const Navigation = ({ nextPage, backPage, pageNumber, totalPages }) => {
   return (
     <nav className="navigation-container">
 
       {
-        pageNumber > 0 && (<a className="btn btn--back-page" onClick={backPage}>BACK</a>)
+        pageNumber > 1 && (<a className="btn btn--back-page" onClick={backPage}>BACK</a>)
       }      
 
-      <a className="btn btn--next-page" onClick={nextPage}>NEXT</a>
+      <div className="navigation-container__page-number">
+        <h2>{pageNumber}</h2>
+      </div>
+      
+
+      {
+        pageNumber < totalPages && (<a className="btn btn--next-page" onClick={nextPage}>NEXT</a>)
+      } 
 
     </nav>
   )

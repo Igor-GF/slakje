@@ -32,7 +32,8 @@ export const booksDB = [
         pageNumber: 4,
         pageBg: "./images/bg-volendorpje_scene_04.jpg",
         pageText: [
-          "I was wondering if you could help Kiko to find her, that is the only way  everything may get back to normal.",
+          "I was wondering if you can help Kiko to find her?",
+          "That is the only way everything may get back to normal.",
           "Kiko has found the first clue..."
         ]
       },{
@@ -41,7 +42,7 @@ export const booksDB = [
         pageText: [
           "One week ago, teacher Anneke, decided one day that she would take fruits to her students.",
           "She put 6 apples in her bag, 4 pears and 3 kiwis. Turned out that when she got in class she had lost one of the apples on the way.",
-          "How many fruits does Juf Aneke have left in her bag?"
+          "How many fruits does teacher Aneke have left in her bag?"
         ]
       },{
         pageNumber: 6,
@@ -109,8 +110,7 @@ export const booksDB = [
         pageBg: "./images/bg-volendorpje_scene_12_puzzle.jpg",
         pageText: [
           "But to open the door you still need to help solving one last puzzle.",
-          "Lena want you to guess how old she is!",
-          "But of course, she left a clue.",
+          "Lena want you to guess how old she is! But of course, she left us a clue.",
           "Do you still remember which was teacher Anneke's house number?",
           "Lena's age is this number minus 3",
           "So, how old is Lena?"
@@ -126,32 +126,32 @@ export const booksDB = [
         ],
         textRight: "--right"
       },{
-        pageNumber: 14,
+        pageNumber: 15,
         pageBg: "./images/bg-volendorpje_scene_14.jpg",
         pageText: [
           "Hi again!",
         ]
       },{
-        pageNumber: 15,
+        pageNumber: 16,
         pageBg: "./images/bg-volendorpje_scene_14.jpg",
         pageText: [
           "Wow, you were amazing! You found me!",
           "Next time I will make it harder for you."
         ]
       },{
-        pageNumber: 16,
+        pageNumber: 17,
         pageBg: "./images/bg-volendorpje_scene_15.jpg",
         pageText: [
           "As promised, I am breaking the enchanting, and Volendorpje will be awake again."
         ]
       },{
-        pageNumber: 16,
+        pageNumber: 18,
         pageBg: "./images/bg-volendorpje_scene_16.jpg",
         pageText: [
           "It was really fun playing with you, but now I have to go…"          
         ]
       },{
-        pageNumber: 17,
+        pageNumber: 19,
         pageBg: "./images/bg-volendorpje_scene_17.jpg",
         pageText: [
           "See you in another time!!!"

@@ -20,13 +20,3 @@ body {
   background-color: grey;
   position: relative;
 }
-
-.btn {
-  text-decoration: none;
-  background-color: grey;
-
-  &:hover {
-    cursor: pointer;
-    background-color: green;
-  }
-}
