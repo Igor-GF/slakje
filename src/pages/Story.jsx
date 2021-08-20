@@ -39,6 +39,7 @@ const Story = ({ booksDB }) => {
         backPage={backPageHandler} 
         pageNumber={booksDB[0].pages[currPage].pageNumber}
         totalPages={booksDB[0].pages.length}
+        answer={booksDB[0].pages[currPage].answer}
       />         
     </section>
   )

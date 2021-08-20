@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Navigation = ({ nextPage, backPage, pageNumber, totalPages }) => {
+const Navigation = ({ nextPage, backPage, pageNumber, totalPages, answer }) => {
   return (
     <nav className="navigation-container">
 
@@ -16,7 +16,7 @@ const Navigation = ({ nextPage, backPage, pageNumber, totalPages }) => {
       
 
       {
-        pageNumber < totalPages && (
+        (pageNumber < totalPages && !answer) && (
           <span className="btn btn--next-page" onClick={nextPage}>NEXT</span>
         )
       } 
