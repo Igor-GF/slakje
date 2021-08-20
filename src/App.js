@@ -12,8 +12,12 @@ function App() {
   }
   return (
     <main className="app">
-       <Home start={startHandler}/>
-       <Story booksDB={booksDB}/>
+      {
+        story === 0 ? 
+          (<Home start={startHandler}/>) :
+          (<Story booksDB={booksDB}/>)
+      }
+       
     </main>
   );
 }

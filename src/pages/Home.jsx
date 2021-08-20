@@ -13,7 +13,7 @@ const Home = ({ start }) => {
       <h3>Studio Slak</h3>
 
       <p>Facilitator:</p>
-      <h3>Indietopia Incubator/Accelerator</h3>
+      <h3>Indietopia (Incubator/Accelerator)</h3>
     </div>
   )
 }

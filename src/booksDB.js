@@ -42,7 +42,7 @@ export const booksDB = [
         pageText: [
           "One week ago, teacher Anneke, decided one day that she would take fruits to her students.",
           "She put 6 apples in her bag, 4 pears and 3 kiwis. Turned out that when she got in class she had lost one of the apples on the way.",
-          "How many fruits does teacher Aneke have left in her bag?"
+          "How many fruits does teacher Anneke have left in her bag?"
         ],
         answer: "12"
       },{
@@ -50,7 +50,7 @@ export const booksDB = [
         pageBg: "./images/bg-volendorpje_scene_06.jpg",
         pageText: [
           "That was perfect! You have just figured out the first clue!",
-          "8 is the number of the house you need to find now. And there you will find the next clue.",
+          "12 is the number of the house you need to find now. And there you will find the next clue.",
           "Kiko knows the way! He knows every place in Volendorpje and he will lead you there."
         ],
         textRight: "--right"
@@ -120,9 +120,8 @@ export const booksDB = [
         pageNumber: 14,
         pageBg: "./images/bg-volendorpje_scene_12_puzzle.jpg",
         pageText: [
-          "Do you still remember which was teacher Anneke's house number?",
           "Well, the clue is:",
-          "Lena's age is this number of Aneke's house minus 3.",
+          "Lena's age is the number of teacher Anneke's house minus 3.",
           "So, how old is Lena?"
         ],
         textRight: "--right",

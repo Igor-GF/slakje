@@ -14,10 +14,11 @@ const InputNumber = ({ correctAnswer, nextPage }) => {
 
   const formSubmitHandler = (e) => {
     e.preventDefault();
+
     if (checkAnswer()) {
       return nextPage();
     } else {
-      // return setUserAnswer("0");
+      return setUserAnswer("0");
     }
   }
   
@@ -30,7 +31,7 @@ const InputNumber = ({ correctAnswer, nextPage }) => {
           placeholder="0"
           onChange={userAnswerHandler}
         />
-        <button className="btn" type="submit">OK</button>
+        <button className="btn btn--ok" type="submit">OK</button>
       </form>
     </>
   )
