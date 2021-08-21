@@ -16,8 +16,10 @@ const Navigation = ({ nextPage, backPage, pageNumber, totalPages, answer }) => {
       
 
       {
-        (pageNumber < totalPages && !answer) && (
+        (pageNumber < totalPages && !answer) ? (
           <span className="btn btn--next-page" onClick={nextPage}>NEXT</span>
+        ) : (
+          <span className="btn btn--next-page"> ? </span>
         )
       } 
 

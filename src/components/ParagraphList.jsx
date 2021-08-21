@@ -2,6 +2,7 @@ import React from 'react';
 import PuzzleOne from './PuzzleOne';
 import PuzzleTwo from './PuzzleTwo';
 import PuzzleThree from './PuzzleThree';
+import PuzzleTwoA from './PuzzleTwoA';
 
 const ParagraphList = ({ paragraphs, onTheRight, pageNumber, answer, nextPage }) => {
   return (
@@ -16,7 +17,12 @@ const ParagraphList = ({ paragraphs, onTheRight, pageNumber, answer, nextPage })
         answer={answer}
         pageNumber={pageNumber}
         nextPage={nextPage} 
-      />      
+      />
+      <PuzzleTwoA
+        answerArr={answer}
+        pageNumber={pageNumber}
+        nextPage={nextPage}
+      />
       <PuzzleTwo 
         answer={answer}
         pageNumber={pageNumber}

@@ -77,16 +77,17 @@ export const booksDB = [
           "Now I want to see if you can complete these three sequences!"
         ],
         textRight: "--right",
+        answer: ["2", "3", "2"]
       },{
         pageNumber: 10,
-        pageBg: "./images/bg-volendorpje_scene_09.jpg",
+        pageBg: "./images/bg-volendorpje_scene_09b.jpg",
         pageText: [
-          "Well done!",
-          "Well, just one more question.",
+          "Good job!",
+          "Well, just one more question then.",
           "Which picture do you see the most?"
         ],
         textRight: "--right",
-        answer: "windmill"
+        answer: "2"
       },{
         pageNumber: 11,
         pageBg: "./images/bg-volendorpje_scene_06.jpg",
