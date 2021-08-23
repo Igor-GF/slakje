@@ -1,10 +1,16 @@
 import React from 'react';
 
-const FindEnvelope = ({ envelope }) => {
+const FindEnvelope = ({ pageNumber, envelope, nextPage }) => {
+
+  const onClickHandler = () => {
+    nextPage();
+  }
   return (
-    <div className="envelope">
-      <img src={envelope} alt="ENVELOPE"/>
-    </div>
+      pageNumber === 8 && (
+        <div className="envelope">
+          <img src={envelope} alt="ENVELOPE" onClick={onClickHandler}/>
+        </div>
+      )
   )
 }
 

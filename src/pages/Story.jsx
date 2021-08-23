@@ -28,7 +28,9 @@ const Story = ({ booksDB }) => {
       />
 
       <FindEnvelope
+        pageNumber={booksDB[0].pages[currPage].pageNumber}
         envelope={booksDB[0].pages[currPage].envelope}
+        nextPage={nextPageHandler}
       />      
       
       <ParagraphList 

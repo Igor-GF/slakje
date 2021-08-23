@@ -67,16 +67,17 @@ export const booksDB = [
         pageNumber: 8,
         pageBg: "./images/bg-volendorpje_scene_08.jpg",
         pageText: [
-          "Can you see any clue somewhere?"
+          "Can you find the clue somewhere?"
         ],
         textRight: "--right",
         envelope: "./images/pic-06-envelope.png",
-        // answer: "envelope-found"
+        answer: "envelope-found"
       },{
         pageNumber: 9,
         pageBg: "./images/bg-volendorpje_scene_09.jpg",
         pageText: [
-          "Now I want to see if you can complete these three sequences!"
+          "You found an envelope! And it says:",
+          "Can you complete these three sequences?"
         ],
         textRight: "--right",
         fixedHeight: "fixed-height",
@@ -87,7 +88,7 @@ export const booksDB = [
         pageText: [
           "Good job!",
           "Well, just one more question then.",
-          "Which picture do you see the most?"
+          "Which picture do you see the most right on the left side?"
         ],
         textRight: "--right",
         answer: "2"

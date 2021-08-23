@@ -14,6 +14,10 @@ const Home = ({ start }) => {
 
       <p>Facilitator:</p>
       <h3>Indietopia (Incubator/Accelerator)</h3>
+
+      <div className="click-to-start">
+        <h2>CLICK SOMEWHERE TO START</h2>
+      </div>
     </div>
   )
 }
