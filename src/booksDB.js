@@ -69,7 +69,9 @@ export const booksDB = [
         pageText: [
           "Can you see any clue somewhere?"
         ],
-        textRight: "--right"
+        textRight: "--right",
+        envelope: "./images/pic-06-envelope.png",
+        // answer: "envelope-found"
       },{
         pageNumber: 9,
         pageBg: "./images/bg-volendorpje_scene_09.jpg",

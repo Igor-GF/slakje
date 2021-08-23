@@ -38,6 +38,18 @@
     }
   }
 
+  .envelope {
+    position: absolute;
+    top: 76%;
+    left: 26%;
+    z-index: 10;
+    width: 7%;
+
+    img {
+      width: 100%;
+    }
+  }
+
   .fixed-height {
     height: 23%;
   }

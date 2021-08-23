@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Navigation from '../components/Navigation';
 import ParagraphList from '../components/ParagraphList';
 import Background from '../components/Background';
+import FindEnvelope from '../components/FindEnvelope';
 
 const Story = ({ booksDB }) => {
 
@@ -25,6 +26,10 @@ const Story = ({ booksDB }) => {
       <Background 
         bgImage={booksDB[0].pages[currPage].pageBg}
       />
+
+      <FindEnvelope
+        envelope={booksDB[0].pages[currPage].envelope}
+      />      
       
       <ParagraphList 
         paragraphs={booksDB[0].pages[currPage].pageText} 
