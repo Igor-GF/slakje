@@ -46,27 +46,29 @@ const InputArray = ({ correctAnswer1, correctAnswer2, correctAnswer3, nextPage }
   return (
     <>
       <form onSubmit={formSubmitHandler}>
-        <input 
-          className="input-number" 
-          type="text" id="inputNumb1" 
-          placeholder="0"
-          onChange={input1Handler}
-        />
+        <div className="input-container">
+          <input
+            className="input-number input-number__answer-one" 
+            type="text" id="inputNumb1" 
+            placeholder="0"
+            onChange={input1Handler}
+          />
 
-        <input 
-          className="input-number" 
-          type="text" id="inputNumb2" 
-          placeholder="0"
-          onChange={input2Handler}
-        />
+          <input
+            className="input-number input-number__answer-two" 
+            type="text" id="inputNumb2" 
+            placeholder="0"
+            onChange={input2Handler}
+          />
 
-        <input 
-          className="input-number" 
-          type="text" id="inputNumb3" 
-          placeholder="0"
-          onChange={input3Handler}
-        />
-
+          <input
+            className="input-number input-number__answer-three" 
+            type="text" id="inputNumb3" 
+            placeholder="0"
+            onChange={input3Handler}
+          />
+        </div>
+        
         <button className="btn btn--ok" type="submit">OK</button>
       </form>
     </>

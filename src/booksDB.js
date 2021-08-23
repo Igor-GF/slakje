@@ -77,6 +77,7 @@ export const booksDB = [
           "Now I want to see if you can complete these three sequences!"
         ],
         textRight: "--right",
+        fixedHeight: "fixed-height",
         answer: ["2", "3", "2"]
       },{
         pageNumber: 10,

@@ -18,7 +18,7 @@ const InputNumber = ({ correctAnswer, nextPage }) => {
     if (checkAnswer()) {
       return nextPage();
     } else {
-      return setUserAnswer("0");
+      return document.getElementById("input-number").value = "";
     }
   }
   
@@ -27,7 +27,7 @@ const InputNumber = ({ correctAnswer, nextPage }) => {
       <form onSubmit={formSubmitHandler}>
         <input 
           className="input-number" 
-          type="text" name="input-number" 
+          type="text" id="input-number" 
           placeholder="0"
           onChange={userAnswerHandler}
         />

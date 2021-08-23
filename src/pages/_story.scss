@@ -11,14 +11,14 @@
     border-radius: 0.4rem;
     box-shadow: 1rem 1rem 2rem rgba(black, 0.15);
     background-color: rgba($color-white, 0.8);
-    padding: 1rem 2rem;
+    padding: 1.6% 4%;
     position: absolute;
-    top: 15%;
-    left: 6rem;
+    top: 11.5%;
+    left: 8.5%;
     text-align: center;
 
     &--right {
-      transform: translateX(29rem);
+      transform: translateX(111%);
     }
 
     h2 {
@@ -36,5 +36,9 @@
     img {
       height: 100%;
     }
+  }
+
+  .fixed-height {
+    height: 23%;
   }
 }

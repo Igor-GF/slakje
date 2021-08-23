@@ -32,6 +32,7 @@ const Story = ({ booksDB }) => {
         pageNumber={booksDB[0].pages[currPage].pageNumber}
         answer={booksDB[0].pages[currPage].answer}
         nextPage={nextPageHandler}
+        fixedHeight={booksDB[0].pages[currPage].fixedHeight}
       />
 
       <Navigation 
