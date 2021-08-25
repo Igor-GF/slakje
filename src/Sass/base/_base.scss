@@ -1,8 +1,10 @@
+@import "./variables";
+
 .btn {
   display: flex;
   justify-content: center;
   text-decoration: none;
-  background-color: grey;
+  background-color: $color-primary-dark;
   height: 100%;
   border-radius: 0.5rem;
   font-size: 1.5rem;
@@ -12,6 +14,6 @@
 
   &:hover {
     cursor: pointer;
-    background-color: green;
+    background-color: $color-primary;
   }
 }
