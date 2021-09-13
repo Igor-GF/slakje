@@ -8,7 +8,7 @@ export const booksDB = [
         pageBg: "./images/bg-volendorpje_scene_01.jpg",
         pageText: [
           "This little bat is Kiko! Hello Kiko!",
-          "Kiko looks very excited.",
+          "Kiko looks very excited today.",
           "Should we tell our friend what is happening in Volendorpje?!",
           "Kiko nods affirmatively.",
           "And do you know why?"
@@ -18,7 +18,7 @@ export const booksDB = [
         pageBg: "./images/bg-volendorpje_scene_02.jpg",
         pageText: [
           "Everybody in the village is sleeping inside their houses for days!",
-          "And all of this was caused by a little witch, and one more of her games."
+          "And all of this was caused by a little witch and one more of her games."
         ]
       },{
         pageNumber: 3,
@@ -26,13 +26,13 @@ export const booksDB = [
         pageText: [
           "Oh yeah…. There is a little witch who is responsible for this big trouble!",
           "Her name is Lena.",
-          "She is not a bad girl, but she shows up every season to have fun! Making magic and leaving clues."
+          "She is not a bad girl, but she shows up every season to have fun! She makes magic and leaves clues."
         ]
       },{
         pageNumber: 4,
         pageBg: "./images/bg-volendorpje_scene_04.jpg",
         pageText: [
-          "I was wondering if you can help Kiko to find her?",
+          "I was wondering if you can help Kiko to find Lena?",
           "That is the only way everything may get back to normal.",
           "Kiko has found the first clue..."
         ]
@@ -42,7 +42,8 @@ export const booksDB = [
         pageText: [
           "One week ago, teacher Anneke, decided one day that she would take fruits to her students.",
           "She put 6 apples in her bag, 4 pears and 3 kiwis. Turned out that when she got in class she had lost one of the apples on the way.",
-          "How many fruits does teacher Anneke have left in her bag?"
+          "When teacher Anneke came into the classroom, she took all the fruits out!",
+          "How many fruits does she have now?"
         ],
         answer: "12"
       },{
@@ -61,13 +62,14 @@ export const booksDB = [
           "Can you see the number 12?",
           "The house number 12 is teacher Anneke’s!",
           "She is a very known teacher in the village, every student likes her!",          
-          "As you know, she can not help us, she is sleeping deeply… Let us go in and look for the clue!"
+          "As you know, she can not help us, she is sleeping deeply. Let us go in and look for the clue!"
         ]
       },{
         pageNumber: 8,
         pageBg: "./images/bg-volendorpje_scene_08.jpg",
         pageText: [
-          "Can you find the clue somewhere?"
+          "Can you find the clue somewhere?",
+          "Click on the objects to check out."
         ],
         textRight: "--right",
         envelope: "./images/pic-06-envelope.png",
@@ -88,7 +90,7 @@ export const booksDB = [
         pageText: [
           "Good job!",
           "Well, just one more question then.",
-          "Which picture do you see the most right on the left side?"
+          "Which picture do you see the most on the left side?"
         ],
         textRight: "--right",
         answer: "2"
@@ -116,8 +118,8 @@ export const booksDB = [
         pageNumber: 13,
         pageBg: "./images/bg-volendorpje_scene_12_puzzle.jpg",
         pageText: [
-          "But to open the door you still need to help solving one last puzzle.",
-          "Lena want you to guess how old she is! But of course, she left us a clue.",
+          "But to open the door you still need to help solve one last puzzle.",
+          "Lena wants you to guess how old she is! But of course, she left us a clue.",
           "Do you still remember which was teacher Anneke's house number?",
         ],
         textRight: "--right",
@@ -157,7 +159,8 @@ export const booksDB = [
         pageNumber: 18,
         pageBg: "./images/bg-volendorpje_scene_15.jpg",
         pageText: [
-          "As promised, I am breaking the enchanting, and Volendorpje will be awake again."
+          "As I always promise!",
+          "I will break the enchanting, and Volendorpje will be awake again."
         ]
       },{
         pageNumber: 19,
