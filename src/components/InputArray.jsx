@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
+import Warning from "./Warning";
 
 const InputArray = ({ correctAnswer1, correctAnswer2, correctAnswer3, nextPage }) => {
 
   const [userAnswer1, setUserAnswer1] = useState("");
   const [userAnswer2, setUserAnswer2] = useState("");
   const [userAnswer3, setUserAnswer3] = useState("");
+  const [warningMsg, setWarningMsg] = useState(false);
 
   const checkAnswer = () => {
     if (
@@ -34,11 +36,13 @@ const InputArray = ({ correctAnswer1, correctAnswer2, correctAnswer3, nextPage }
     e.preventDefault();
 
     if (checkAnswer()) {
+      setWarningMsg(false);
       return nextPage();
     } else {
       document.getElementById("inputNumb1").value = "";
       document.getElementById("inputNumb2").value = "";
       document.getElementById("inputNumb3").value = "";
+      setWarningMsg(true);
       return;
     }
   }
@@ -68,7 +72,11 @@ const InputArray = ({ correctAnswer1, correctAnswer2, correctAnswer3, nextPage }
             onChange={input3Handler}
           />
         </div>
-        
+
+        {
+          warningMsg && <Warning />
+        } 
+
         <button className="btn btn--ok" type="submit">OK</button>
       </form>
     </>

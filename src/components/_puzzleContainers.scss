@@ -29,3 +29,13 @@ form {
   flex-direction: column;
   align-items: center;
 }
+
+.warning {
+  background-color: crimson;
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
