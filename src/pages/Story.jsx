@@ -7,6 +7,7 @@ import FindEnvelope from '../components/FindEnvelope';
 const Story = ({ booksDB }) => {
 
   const [currPage, setCurrPage] = useState(0);
+  const [currBG, setCurrBG] = useState("");
 
   const nextPageHandler = () => {
     setCurrPage( currPage + 1 );
@@ -17,14 +18,14 @@ const Story = ({ booksDB }) => {
   };
 
   useEffect(() => {
-    console.log("it wotked!!!")
+    setCurrBG(booksDB[0].pages[currPage].pageBg);
   }, [currPage]);
 
   return (
     <section className="page-container">
       
       <Background 
-        bgImage={booksDB[0].pages[currPage].pageBg}
+        bgImage={currBG}
       />
 
       <FindEnvelope
